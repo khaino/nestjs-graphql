@@ -33,6 +33,13 @@ $ npm run test:cov
 
 ## Note
 $ npm install graphql@14.6.0 graphql-tools apollo-server-express @nestjs/graphql
-
 $ nest g module lesson
+$ npm install typeorm @nestjs/typeorm mongodb @types/mongodb
+$ nest g service lesson --no-spec
+$ npm install uuid @types/uuid
+$ nest g module student
+$ nest g service student
+
+# To install mongo on docker
+$ docker run --name mongo -p 27017:27017 -d mongo
 
